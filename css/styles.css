@@ -2,5 +2,83 @@
   --header: #3a6655;
   --bg: #618c7b;
   --primary: #96b5ad;
+  --border: #598979;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins', Sans-Serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--header);
+  color: white ;
+  justify-content: space-between;
+  text-align: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 20px 5%;
+}
+
+.navbar .navbar-logo {
+  color: white;
+  font-size: 30px;
+}
+
+.navbar .navbar-logo span {
+  color: var(--primary);
+  font-style: italic;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+}
+
+.navbar .navbar-nav a {
+  font-size: 18px;
+  margin: 7px;
+  font-weight: 500;
+  padding: 6px 10px;
+  color: white;
+}
+
+.home {
+  height: 100vh;
+  width: auto;
+  background-color: var(--bg);
+  color: white;
+}
+
+.home .home-content {
+  display: flex;
+}
+
+.home .home-content .home-c1 {
+  border: 3px solid var(--primary);
+  width: 60%;
+  height: auto;
+  text-align: center;
+}
+
+.home 
+
+.home .home-content .home-c2 {
+  background-color: var(--primary);
+  border: 5px solid var(--border);
+  border-radius: 30px;
+  width: 40%;
+  height: 620px;
+  margin-top: 50px;
+  margin-right: 50px;
 }
 
