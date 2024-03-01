@@ -40,17 +40,36 @@ body {
   font-style: 'Madimi One';
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
+.navbar-search {
+  background-color: var(--primary);
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  width: 400px;
 }
 
-.navbar .navbar-nav a {
-  font-size: 18px;
-  margin: 7px;
+.navbar-search .nav-src {
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
   font-weight: 500;
-  padding: 6px 10px;
-  color: white;
+  font-size: 16px;
+  transition: 0.8s;
 }
+
+.navbar-search .src-btn {
+  color: var(--header);
+  padding: 8px 0 0 0;
+}
+
+
+
 
 .home {
   height: 90vh;
