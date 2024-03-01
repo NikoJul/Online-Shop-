@@ -68,8 +68,18 @@ body {
   padding: 8px 0 0 0;
 }
 
+.navbar-icon {
+  align-items: center;
+  height: 20px;
+}
 
-
+.navbar-icon a {
+  background-color: var(--bg);
+  text-align: center;
+  color: white;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+}
 
 .home {
   height: 90vh;
