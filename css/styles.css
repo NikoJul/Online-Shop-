@@ -88,9 +88,10 @@ body {
 .home .home-content .home-c1 h1 {
   border: 5px solid var(--border);
   border-radius: 20px;
-  margin: 0 150px 0 150px;
+  margin: 0 200px 20px 200px;
   padding: 10px 0 10px 0;
   background-color: var(--primary);
+  width: auto;
 }
 
 .home .home-content .home-c1 h4 {
