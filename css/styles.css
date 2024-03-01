@@ -50,11 +50,11 @@ body {
   align-items: center;
   cursor: pointer;
   transition: 0.8s;
-  width: 400px;
+  width: 600px;
 }
 
 .navbar-search .nav-src {
-  width: 400px;
+  width: 600px;
   background: transparent;
   border: none;
   outline: none;
