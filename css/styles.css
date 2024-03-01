@@ -82,7 +82,8 @@ body {
   margin-right: 50px;
   background-image: url(../img/Sepatu1.jpg);
   background-repeat: no-repeat;
-  background-position: cover;
+  background-size: cover;
+  background-position: -30px 0px;
 }
 
 .home .home-content .home-c1 h1 {
