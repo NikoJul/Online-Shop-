@@ -68,25 +68,18 @@ body {
   padding: 8px 0 0 0;
 }
 
-.navbar-icon .icon-log {
+.navbar-icon .icon-log,
+.navbar-icon .icon-log1 {
   background-color: var(--primary);
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 20%;
+  margin: 3px;
 }
 
-.navbar-icon .icon-log a {
+.navbar-icon .icon-log a,
+.navbar-icon .icon-log1 a{
   color: var(--header);
 }
-
-.navbar-icon .icon-f {
-  align-items: center;
-}
-
-.navbar-icon .icon-f a {
-  text-align: center;
-}
-
-
 
 .home {
   height: 90vh;
