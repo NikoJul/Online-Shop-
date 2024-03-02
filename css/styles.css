@@ -68,18 +68,25 @@ body {
   padding: 8px 0 0 0;
 }
 
-.navbar-icon {
-  align-items: center;
-  height: 20px;
+.navbar-icon .icon-log {
+  background-color: var(--primary);
+  padding: 10px 20px;
+  border-radius: 20%;
 }
 
-.navbar-icon a {
-  background-color: var(--bg);
-  text-align: center;
-  color: white;
-  border: 2px solid var(--primary);
-  border-radius: 50%;
+.navbar-icon .icon-log a {
+  color: var(--header);
 }
+
+.navbar-icon .icon-f {
+  align-items: center;
+}
+
+.navbar-icon .icon-f a {
+  text-align: center;
+}
+
+
 
 .home {
   height: 90vh;
